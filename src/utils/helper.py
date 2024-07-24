@@ -41,7 +41,7 @@ def basename(filename):
 
 def remove_suffix(filepath):
     """a/b/c.jpg -> a/b/c"""
-    return osp.join("/content/LivePortrait/assets/pkl", basename(filepath))
+    return osp.join("/content/liveportrait2_1/assets/pkl", basename(filepath))
 
 def is_image(file_path):
     image_extensions = ('.jpg', '.jpeg', '.png', '.gif', '.bmp', '.tiff')
